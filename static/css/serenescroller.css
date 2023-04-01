@@ -80,3 +80,17 @@ section {
   font-size: 2em;
   margin: 60px;
 }
+
+.section-title {
+  font-size: 3em;
+  margin-bottom: 80px;
+}
+
+.info-title {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.info {
+  margin-left: 50px;
+}
