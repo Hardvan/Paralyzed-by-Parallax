@@ -51,6 +51,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow: hidden; /* ? Important for parallax text to not be visible outside of the section */
 }
 
 #text {
