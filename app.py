@@ -27,5 +27,11 @@ def jungle():
     return render_template('jungle.html')
 
 
+@app.route('/serenescroller')
+def serenescroller():
+
+    return render_template('serenescroller.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
