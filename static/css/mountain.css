@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -63,6 +64,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 section::before {
@@ -95,6 +97,7 @@ section img {
 
 #text {
   position: absolute;
+  right: -350px;
   color: #fff;
   white-space: nowrap;
   font-size: 7.5vw;

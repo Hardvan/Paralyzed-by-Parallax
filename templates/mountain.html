@@ -48,14 +48,14 @@
         alt="mountains_behind"
       />
       <h2 id="text">Mountain</h2>
-      <a href="#" id="btn">Explore</a>
+      <a href="#sec" id="btn">Explore</a>
       <img
         src="{{url_for('static', filename='images/Mountain/mountains_front.png')}}"
         id="mountains_front"
         alt="mountains_front"
       />
     </section>
-    <div class="sec">
+    <div class="sec" id="sec">
       <h2>Moutain Parallax</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -76,5 +76,10 @@
         <br />
       </p>
     </div>
+
+    <script
+      type="text/javascript"
+      src="{{url_for('static', filename='js/mountain.js')}}"
+    ></script>
   </body>
 </html>
