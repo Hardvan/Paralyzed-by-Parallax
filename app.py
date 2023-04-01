@@ -15,5 +15,11 @@ def moonlight():
     return render_template('moonlight.html')
 
 
+@app.route('/mountain')
+def mountain():
+
+    return render_template('mountain.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
