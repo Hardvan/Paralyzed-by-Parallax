@@ -57,7 +57,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="/moonlight">MoonLight</a>
+                <a class="nav-link" href="/serenescroller">SereneScroller</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/mountain">Mountain</a>
@@ -66,7 +66,7 @@
                 <a class="nav-link" href="/jungle">Jungle</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/serenescroller">SereneScroller</a>
+                <a class="nav-link" href="/moonlight">MoonLight</a>
               </li>
             </ul>
           </div>
@@ -83,13 +83,70 @@
       </section>
 
       <div class="container">
+        <div class="col-sm-6">
+          <div class="card mb-3">
+            <img
+              src="{{url_for('static', filename='images/serenescroller.png')}}"
+              class="card-img-top"
+              alt="Parallax Page 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">SereneScroller</h5>
+              <p class="card-text">
+                A webpage using ScrollReveal.js to create awesome scrolling
+                effects for images and text.
+              </p>
+              <a href="/serenescroller" class="btn btn-primary stretched-link"
+                >View Page</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card mb-3">
+            <img
+              src="{{url_for('static', filename='images/mountain.png')}}"
+              class="card-img-top"
+              alt="Parallax Page 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mountain</h5>
+              <p class="card-text">
+                A parallax webpage with a mountain theme, with the moon slowly
+                sinking into the horizon.
+              </p>
+              <a href="/mountain" class="btn btn-primary stretched-link"
+                >View Page</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card mb-3">
+            <img
+              src="{{url_for('static', filename='images/jungle.png')}}"
+              class="card-img-top"
+              alt="Parallax Page 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jungle</h5>
+              <p class="card-text">
+                A parallax webpage with a jungle theme, with the hills spreading
+                apart with scrolling.
+              </p>
+              <a href="/jungle" class="btn btn-primary stretched-link"
+                >View Page</a
+              >
+            </div>
+          </div>
+        </div>
         <div class="row">
           <div class="col-sm-6">
             <div class="card mb-3">
               <img
                 src="{{url_for('static', filename='images/moonlight.png')}}"
                 class="card-img-top"
-                alt="Parallax Page 1"
+                alt="Parallax Page 4"
               />
               <div class="card-body">
                 <h5 class="card-title">MoonLight</h5>
@@ -98,63 +155,6 @@
                   blending into the images, producing a soothing effect.
                 </p>
                 <a href="/moonlight" class="btn btn-primary stretched-link"
-                  >View Page</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card mb-3">
-              <img
-                src="{{url_for('static', filename='images/mountain.png')}}"
-                class="card-img-top"
-                alt="Parallax Page 2"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Mountain</h5>
-                <p class="card-text">
-                  A parallax webpage with a mountain theme, with the moon slowly
-                  sinking into the horizon.
-                </p>
-                <a href="/mountain" class="btn btn-primary stretched-link"
-                  >View Page</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card mb-3">
-              <img
-                src="{{url_for('static', filename='images/jungle.png')}}"
-                class="card-img-top"
-                alt="Parallax Page 3"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Jungle</h5>
-                <p class="card-text">
-                  A parallax webpage with a jungle theme, with the hills
-                  spreading apart with scrolling.
-                </p>
-                <a href="/jungle" class="btn btn-primary stretched-link"
-                  >View Page</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card mb-3">
-              <img
-                src="{{url_for('static', filename='images/serenescroller.png')}}"
-                class="card-img-top"
-                alt="Parallax Page 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">SereneScroller</h5>
-                <p class="card-text">
-                  A webpage using ScrollReveal.js to create awesome scrolling
-                  effects for images and text.
-                </p>
-                <a href="/serenescroller" class="btn btn-primary stretched-link"
                   >View Page</a
                 >
               </div>
