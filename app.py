@@ -5,7 +5,14 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "<h1>Hello, World!</h1>"
+
+    return render_template('index.html')
+
+
+@app.route('/moonlight')
+def moonlight():
+
+    return render_template('moonlight.html')
 
 
 if __name__ == "__main__":
