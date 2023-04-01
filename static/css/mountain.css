@@ -19,13 +19,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 10000;
 }
 
 header .logo {
   color: #fff;
   font-weight: 700;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -52,4 +53,39 @@ header ul li a:hover,
 header ul li a.active {
   background: #fff;
   color: #2b1055;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#moon {
+  mix-blend-mode: screen;
+}
+
+#mountains_front {
+  z-index: 10;
+}
+
+#text {
+  position: absolute;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 7.5vw;
+  z-index: 9;
 }
