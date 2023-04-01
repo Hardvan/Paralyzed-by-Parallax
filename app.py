@@ -21,5 +21,11 @@ def mountain():
     return render_template('mountain.html')
 
 
+@app.route('/jungle')
+def jungle():
+
+    return render_template('jungle.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
