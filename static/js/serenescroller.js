@@ -1,6 +1,6 @@
 // Common reveal options to create reveal animations
 ScrollReveal({
-  reset: true,
+  //   reset: true,
   distance: "60px",
   duration: 1250,
   delay: 200,
