@@ -39,5 +39,11 @@ def futurecard():
     return render_template('futurecard.html')
 
 
+@app.route('/superslider')
+def superslider():
+
+    return render_template('superslider.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
