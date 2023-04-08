@@ -45,5 +45,11 @@ def superslider():
     return render_template('superslider.html')
 
 
+@app.route('/hackedtext')
+def hackedtext():
+
+    return render_template('hackedtext.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
