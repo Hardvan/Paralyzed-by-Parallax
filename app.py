@@ -33,5 +33,11 @@ def serenescroller():
     return render_template('serenescroller.html')
 
 
+@app.route('/futurecard')
+def futurecard():
+
+    return render_template('futurecard.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
