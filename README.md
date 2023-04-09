@@ -4,7 +4,7 @@ Paralyzed by Parallax is a collection of parallax webpages built using HTML, CSS
 
 ## Link to the website
 
-[Link 1](http://paralyzedbyparallax.pythonanywhere.com/) (PythonAnywhere)
+[Link 1](http://paralyzedbyparallax.pythonanywhere.com/) (PythonAnywhere)  
 [Link 2](https://paralyzed-by-parallax.onrender.com/) (Render)
 
 ## Technologies Used
