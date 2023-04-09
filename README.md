@@ -2,7 +2,10 @@
 
 Paralyzed by Parallax is a collection of parallax webpages built using HTML, CSS, and JavaScript. The project showcases different parallax webpages, each with a unique theme.
 
-[Link to the website](http://paralyzedbyparallax.pythonanywhere.com/)
+## Link to the website
+
+[Link 1](http://paralyzedbyparallax.pythonanywhere.com/) (PythonAnywhere)
+[Link 2](https://paralyzed-by-parallax.onrender.com/) (Render)
 
 ## Technologies Used
 
