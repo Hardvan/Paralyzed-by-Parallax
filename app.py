@@ -57,5 +57,11 @@ def liquid():
     return render_template('liquid.html')
 
 
+@app.route('/magicalhover')
+def magicalhover():
+
+    return render_template('magicalhover.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
