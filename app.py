@@ -63,5 +63,11 @@ def magicalhover():
     return render_template('magicalhover.html')
 
 
+@app.route('/gradientborder')
+def gradientborder():
+
+    return render_template('gradientborder.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
