@@ -51,5 +51,11 @@ def hackedtext():
     return render_template('hackedtext.html')
 
 
+@app.route('/liquid')
+def liquid():
+
+    return render_template('liquid.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)

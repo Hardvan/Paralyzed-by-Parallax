@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Liquid Footer</title>
+
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/liquid.css')}}"
+    />
+  </head>
+
+  <body>
+    <div id="bubble-wrapper"></div>
+
+    <footer id="footer">
+      <div id="footer-content">
+        <div class="footer-section">
+          <h3 class="footer-section-title">General</h3>
+          <div class="footer-section-links">
+            <a href="" target="_blank">Directory</a>
+            <a href="" target="_blank">About</a>
+            <a href="" target="_blank">Contact Us</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3 class="footer-section-title">Social</h3>
+          <div class="footer-section-links">
+            <a href="" target="_blank">Twitter</a>
+            <a href="" target="_blank">CodePen</a>
+            <a href="" target="_blank">YouTube</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3 class="footer-section-title">Legal</h3>
+          <div class="footer-section-links">
+            <a href="" target="_blank">Privacy</a>
+            <a href="" target="_blank">Terms</a>
+            <a href="" target="_blank">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="{{url_for('static', filename='js/liquid.js')}}"
+    ></script>
+  </body>
+</html>
