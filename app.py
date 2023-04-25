@@ -74,5 +74,12 @@ def tabbar():
 
     return render_template('tabbar.html')
 
+
+@app.route('/cards_slider')
+def cards_slider():
+
+    return render_template('cards_slider.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
