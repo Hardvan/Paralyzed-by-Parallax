@@ -87,5 +87,11 @@ def card_grid_hover():
     return render_template('card_grid_hover.html')
 
 
+@app.route('/pill_buttons')
+def pill_buttons():
+
+    return render_template('pill_buttons.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
