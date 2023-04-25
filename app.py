@@ -93,5 +93,11 @@ def pill_buttons():
     return render_template('pill_buttons.html')
 
 
+@app.route('/tooltip')
+def tooltip():
+
+    return render_template('tooltip.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
