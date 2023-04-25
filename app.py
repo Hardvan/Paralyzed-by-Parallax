@@ -81,5 +81,11 @@ def cards_slider():
     return render_template('cards_slider.html')
 
 
+@app.route('/card_grid_hover')
+def card_grid_hover():
+
+    return render_template('card_grid_hover.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
