@@ -99,5 +99,12 @@ def tooltip():
     return render_template('tooltip.html')
 
 
+
+@app.route('/magical_text')
+def magical_text():
+
+    return render_template('magical_text.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
